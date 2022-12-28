@@ -1,0 +1,18 @@
+header section .send .circle {
+  height: 40px;
+  width: 40px;
+}
+
+main .coins .image {
+  width: 50px;
+  font-size: 2.5rem;
+}
+
+main .coins .middle .price {
+  font-size: 12px;
+}
+
+main .coins .last .bottom {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

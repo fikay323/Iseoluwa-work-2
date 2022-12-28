@@ -1,0 +1,38 @@
+header {
+    
+    section {
+
+        .send {
+            .circle {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
+main {
+    
+    .coins {
+
+        .image {
+            width: 50px;
+            font-size: 2.5rem;
+        }
+        .middle {
+            .name{
+                // margin-bottom: 0px;
+            }
+            .price{
+                font-size: 12px;
+            }
+        }
+        .last {
+            .top{
+                // margin-bottom: 0px;
+            }
+            .bottom{
+                text-align: right;
+            }
+        }
+    }
+}

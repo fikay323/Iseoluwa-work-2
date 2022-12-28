@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>WalletConnect</title>
+</head>
+<body class="bg-black text-white">
+    <header>
+        <h1 class="text-center mt-4">$0.84</h1>
+        <small class="text-center d-block">Main Wallet</small>
+        <section class="d-flex gap-5 justify-content-center mt-5">
+            <div class="send d-flex flex-column align-items-center">
+                <div class="circle bg-info d-flex rounded-circle align-items-center justify-content-center">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+                <p>Send</p>
+            </div>
+            <div class="send align-items-center  d-flex flex-column">
+                <div class="circle bg-info d-flex rounded-circle align-items-center justify-content-center">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p>Receive</p>
+            </div>
+            <div class="send align-items-center d-flex flex-column">
+                <div class="circle bg-info d-flex rounded-circle align-items-center justify-content-center">
+                    <i class="fa-solid fa-tag"></i>
+                </div>
+                <p>Buy</p>
+            </div>
+            <div class="send align-items-center d-flex flex-column">
+                <div class="circle bg-info d-flex rounded-circle align-items-center justify-content-center">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>
+                <p>Swap</p>
+            </div>
+        </section>
+        <article class="d-flex gap-2 mt-2 flex-wrap justify-content-center">
+            <div class="btn border gap-1 d-flex align-items-center px-4 mt-1">
+                <img height="40px" src="/images/bitcoin-btc-logo.png" alt="" />
+                <div class="ms-1 d-flex align-items-start flex-wrap flex-column">
+                    <p class="m-0 text-white fs-5 fw-bold">$<span id="btc">18097.59</span></p>
+                    <p class="m-0 text-white fs-6">Bitcoin</p>
+                </div>
+            </div>
+            <div class="btn border gap-1 d-flex align-items-center px-4 mt-1">
+                <img height="40px" src="/images/ethereum-eth-logo.png" alt="" />
+                <div class="ms-1 d-flex align-items-start flex-wrap flex-column">
+                    <p class="m-0 text-white fs-5 fw-bold">$<span id="eth">1252.46</span></p>
+                    <p class="m-0 text-white fs-6">Ethereum</p>
+                </div>
+            </div>
+            <div class="btn border gap-1 d-flex align-items-center px-4 mt-1">
+                <img height="40px" src="/images/dogecoin-doge-logo.png" alt="" />
+                <div class="ms-1 d-flex align-items-start flex-wrap flex-column">
+                    <p class="m-0 text-white fs-5 fw-bold">$<span id="doge">0.08481</span></p>
+                    <p class="m-0 text-white fs-6">Dogecoin</p>
+                </div>
+            </div>
+        </article>
+    </header>
+    <main class="mt-5 mb-5">
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">Ethereum</p>
+                <p class="price mb-0">$1,195.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0.0007ETH</p>
+                <p class="bottom mb-0">$0.84</p>
+            </div>
+        </div>
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-bitcoin"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">Bitcoin</p>
+                <p class="price mb-0">$1,195.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0 BTC</p>
+                <p class="bottom mb-0">$0</p>
+            </div>
+        </div>
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">Bitcoin Cash</p>
+                <p class="price mb-0">$1,195.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0 BCH</p>
+                <p class="bottom mb-0">$0</p>
+            </div>
+        </div>
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">Bitcoin Lite</p>
+                <p class="price mb-0">$1,195.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0 BTL</p>
+                <p class="bottom mb-0">$0</p>
+            </div>
+        </div>
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">Ripple</p>
+                <p class="price mb-0">$1,195.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0 XRP</p>
+                <p class="bottom mb-0">$0</p>
+            </div>
+        </div>
+        <div class="coins d-flex border-bottom align-items-center p-3">
+            <div class="image d-flex justify-content-center me-3">
+                <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <div class="middle d-flex flex-column">
+                <p class="name mb-0">USDT</p>
+                <p class="price mb-0">$1.88</p>
+            </div>
+            <div class="last d-flex flex-column ms-auto">
+                <p class="top mb-0">0 USDT</p>
+                <p class="bottom mb-0">$0</p>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/c36b48a40a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
