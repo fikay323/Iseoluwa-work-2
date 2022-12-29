@@ -27,5 +27,11 @@ main {
 .copied {
     width: fit-content;
     z-index: 10;
-    top: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+    transition: 2000ms;
+    visibility: hidden;
+}
+.move {
+    transform: translateY(200px);
 }
