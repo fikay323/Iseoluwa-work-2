@@ -8,3 +8,16 @@ async function copyToClipboard(text) {
     console.error("Failed to copy text: ", error);
   }
 }
+
+function copy(){
+    var Url = document.getElementById("box");
+    Url.value = window.location.href;
+    Url.focus();
+    Url.select();
+    document.getElementById("custom-tooltip").style.display = "inline";
+    document.execCommand("copy");
+    setTimeout( function() {
+        document.getElementById("custom-tooltip").style.display = "none";
+    }, 1000);
+
+};
