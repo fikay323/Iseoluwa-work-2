@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+header {
+    background-color: rgb(19, 0, 66);
+}
 main {
     
     section {
@@ -35,7 +38,6 @@ main {
     z-index: 10;
     bottom: 0;
     background-color: whitesmoke;
-    transition: 2000ms;
     visibility: hidden;
 }
 .move {

@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+header {
+  background-color: rgb(19, 0, 66);
+}
+
 main section .send .circle {
   height: 40px;
   width: 40px;
@@ -14,16 +18,13 @@ main article .coin .flex-wrap .mid-con .copy-con {
 }
 
 .copied {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   z-index: 10;
   bottom: 0;
   background-color: whitesmoke;
-  transition: 2000ms;
   visibility: hidden;
 }
 
 .move {
   transform: translateY(200px);
-}/*# sourceMappingURL=style.css.map */
+}
