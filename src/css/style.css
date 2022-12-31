@@ -8,6 +8,9 @@ body {
 header {
   background-color: rgb(19, 0, 66);
 }
+header .navbar-brand {
+  cursor: auto;
+}
 
 main section .send .circle {
   height: 40px;
